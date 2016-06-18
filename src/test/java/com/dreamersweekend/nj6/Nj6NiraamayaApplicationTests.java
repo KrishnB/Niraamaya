@@ -12,6 +12,7 @@ public class Nj6NiraamayaApplicationTests {
 	@Test
 	public void contextLoads() {
 		System.out.println("Hey Krishna are you able to see this?");
+		a;
 	}
 
 }
