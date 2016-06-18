@@ -4,6 +4,12 @@ jdk:
 install: true
 before_script:
 - chmod a+x gradlew
-
+sourceSets {
+    test {
+        java {
+            srcDirs = ["com/dreamersweekend/nj6"]
+        }
+    }
+}
 script: ./gradlew build
 script: ./gradlew test
