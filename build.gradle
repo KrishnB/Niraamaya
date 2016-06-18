@@ -30,15 +30,11 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-mongodb')
 	testCompile('org.springframework.boot:spring-boot-starter-test') 
 }
-
-sourceSets {
-    test {
-        java {
-            srcDirs = ["com/dreamersweekend/nj6"]
-        }
+test {
+    testLogging {
+        events "passed", "skipped", "failed", "standardOut", "standardError"
     }
 }
-
 
 eclipse {
 	classpath {
