@@ -5,4 +5,4 @@ install: true
 before_script:
 - chmod a+x gradlew
 script: ./gradlew build
-script: ./gradlew test
+#script: ./gradlew test
