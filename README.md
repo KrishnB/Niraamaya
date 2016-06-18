@@ -1,3 +1,2 @@
-# Niraamaya
-https://travis-ci.org/KrishnB/Nj6Niraamaya.svg?branch=master
+# Niraamaya [![Build Status](https://travis-ci.org/KrishnB/Nj6Niraamaya.svg?branch=master)](https://travis-ci.org/KrishnB/Nj6Niraamaya)
 Niraamaya Automation
