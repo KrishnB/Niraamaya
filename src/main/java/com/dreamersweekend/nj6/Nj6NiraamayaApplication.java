@@ -8,5 +8,6 @@ public class Nj6NiraamayaApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Nj6NiraamayaApplication.class, args);
+		System.out.println("Made a change run now");
 	}
 }
